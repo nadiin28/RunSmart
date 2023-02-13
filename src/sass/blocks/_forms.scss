@@ -1,0 +1,22 @@
+.feed-form {
+    margin-top: 36px;
+    width: 303px;
+    min-height: 258px;
+    display: flex;
+    flex-direction: column;
+    input {
+        height: 54px;
+        border-radius: 5px;
+        background: #FFFFFF;
+        border: none;
+        margin: 7px 0;
+        padding: 0 20px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #4B4B4B;
+        outline: none;
+    }
+    &_mt25 {
+        margin: 25px auto;
+    }
+}

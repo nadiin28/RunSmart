@@ -1,0 +1,307 @@
+@media (max-width: 1200px) {
+    .carousel {
+        padding: 81px 100px;
+        .prev {
+            left: -50px;
+        }
+        .next {
+            left: auto;
+            right: -50px;
+        }
+        .tns-item {
+            img {
+                width: 85%;
+            }
+        }
+    }
+}
+@media (max-width: 991px) {
+    .container {
+        padding: 0 15px;
+    }
+    .promo {
+       &__header {
+        font-size: 40px;
+       }
+       &__subheader {
+        font-size: 20px;
+       }
+    }
+    .consultation {
+        min-height: 545px;
+        .title {
+            &_left {
+                font-size: 30px;
+                line-height: 40px;
+            }
+        }
+    }
+    .carousel {
+        .prev, .next {
+            img {
+                width: 22px;
+                height: 40px;
+            }
+        }
+    }
+    .catalog {
+        &__content {
+            justify-content: center;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .header {
+        &__logo {
+            width: 170px;
+        }
+        &__official {
+            font-size: 10px;
+            span {
+                font-size: 15px;
+            }
+        }
+        &__phone {
+            font-size: 15px;
+        }
+        .button {
+            width: 135px;
+            height: 23px;
+            font-size: 11px;
+        }
+    }
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+        &__header {
+            font-size: 38px;
+        }
+        &__link {
+            margin-top: 15px;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            margin-top: 0;
+        }
+        &__item {
+            margin-top: 60px;
+            max-width: 192px;
+        }
+    }
+    .consultation {
+        .title {
+            &_left {
+                font-size: 24px;
+                line-height: 35px;
+            }
+        }
+        &__descr {
+            font-size: 15px;
+            line-height: 21px;
+        }
+    }
+    .carousel {
+        padding: 81px 10px;
+        .prev, .next {
+            display: none;
+        }
+        .tns-item {
+            img {
+                width: 95%;
+            }
+        }
+    }
+    .catalog {
+        padding-bottom: 40px;
+    }
+    .footer {
+        &__info {
+            width: 370px;
+            height: 220px;
+            padding: 25px 0 25px 0;
+        }
+        &__addr {
+            font-size: 19px;
+            margin-bottom: 20px;
+        }
+        &__social {
+            margin-top: 30px;
+        }
+        &__soccial-item {
+            width: 43px;
+            height: 42px;
+            img {
+                height: 23px;
+            }
+        }
+    }
+}
+@media (max-width: 575px) {
+    .header {
+        &__official {
+            display: none;
+        }
+        &__phone {
+            font-size: 13px;
+        }
+        .button {
+            width: 115px;
+            height: 17px;
+            font-size: 9px;
+        }
+    }
+    .promo {
+        &__wrapper {
+            margin-top: 80px;
+        }
+        &__header {
+            text-align: center;
+            font-size: 30px;
+        }
+        &__subheader {
+            text-align: center;
+        }
+        &__icons {
+            width: 320px;
+        }
+        &__icon {
+            font-size: 12px;
+        }
+        .button {
+            &_main {
+            width: 265px;
+            height: 43px;
+            }
+        }   
+    }
+    .advantages {
+        .title {
+            font-size: 27px;
+        }
+        &__item {
+            max-width: 260px;
+        }
+    }
+    .consultation {
+        padding: 60px 0;
+        .title {
+            &_left {
+                font-size: 19px;
+                line-height: 25px;
+                text-align: center;
+            }
+        }
+        &__descr {
+            font-size: 14px;
+            line-height: 19px;
+            text-align: center;
+        }
+    }
+    .feed-form {
+        width: 290px;  
+        margin: 36px auto; 
+    }
+    .carousel {
+        .tns-nav {
+            button {
+                width: 25px;
+                height: 5px;
+            }
+        }
+    }
+    .catalog {
+        .title {
+            &_center {
+                line-height: 23px;
+                font-size: 22px;
+            }
+        }
+        &__tabs {
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        &__tab {
+            margin-top: 10px;
+            transform: none;
+            div {
+                transform: none;
+            }
+        }
+    }
+    .feedback {
+        &__item {
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        &__text {
+            margin-left: 0;
+        }
+        .title {
+            font-size: 25px;
+        }
+        &__img {
+            display: block;
+            margin: 0 auto;
+            img{
+                width: 150px;
+                height: 150px;
+            }
+        }
+        &__title {
+            margin-top: 20px;
+            text-align: center;
+        }
+        &__subtitle {
+            text-align: center;
+        }
+    }
+    .footer {
+        &__info {
+            width: 270px;
+            height: 145px;
+            padding: 15px 0 10px 0;
+        }
+        &__addr {
+            font-size: 15px;
+            margin-bottom: 15px;        
+        }
+        &__phone {
+            font-size: 17px;
+        }
+        &__social {
+            margin-top: 20px;
+        }
+        &__soccial-item {
+            width: 33px;
+            height: 32px;
+            border: 1px solid #FFFFFF;
+            img {
+                height: 18px;
+            }
+        }
+    }
+    .feed-form {
+        &_mt25 {
+            width: 245px;
+            margin: 25px auto;
+        }
+    }
+    .modal {
+        padding: 20px 10px 13px 10px;
+        width: 274px;
+        &__subtitle {
+            font-size: 16px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+        &__close {
+            left: 264px;
+            top: -50px;
+        }
+    }
+}
